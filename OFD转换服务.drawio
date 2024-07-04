@@ -1,9 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T11:50:22.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.2" etag="3DsUGp0uqc4-0uVV1sET" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T12:06:54.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="D2d25E1Qz6e9x4RzkqMy" version="24.6.2" type="github">
   <diagram name="第 1 页" id="DeNufmHaoJxjSo38zj69">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="HQB3WoJ26yC-VBeIa9WN-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="540" as="sourcePoint" />
+            <mxPoint x="144.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-13" value="EpOFDSDK" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HQB3WoJ26yC-VBeIa9WN-13">
+          <mxGeometry x="45" y="80" width="10" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-28" value="判断是否转换成功" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" target="HQB3WoJ26yC-VBeIa9WN-18" parent="HQB3WoJ26yC-VBeIa9WN-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="310" />
+              <mxPoint x="84" y="340" />
+            </Array>
+            <mxPoint x="59" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-40" value="下载生成同名不同后缀文件" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.9;entryY=0.965;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="HQB3WoJ26yC-VBeIa9WN-18" parent="HQB3WoJ26yC-VBeIa9WN-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="54" y="465" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="84" y="465" />
+              <mxPoint x="84" y="495" />
+            </Array>
+            <mxPoint x="59" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-15" value="转换服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="660" y="120" width="100" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HQB3WoJ26yC-VBeIa9WN-15">
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HQB3WoJ26yC-VBeIa9WN-15">
+          <mxGeometry x="45" y="220" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-30" value="存储文件" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="HQB3WoJ26yC-VBeIa9WN-21" parent="HQB3WoJ26yC-VBeIa9WN-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="110" />
+              <mxPoint x="85" y="140" />
+            </Array>
+            <mxPoint x="60" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-32" value="调用点聚转换能力进行转换" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="HQB3WoJ26yC-VBeIa9WN-24" parent="HQB3WoJ26yC-VBeIa9WN-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="240" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="240" />
+              <mxPoint x="85" y="270" />
+            </Array>
+            <mxPoint x="60" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="HQB3WoJ26yC-VBeIa9WN-15">
+          <mxGeometry x="45" y="370" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="HQB3WoJ26yC-VBeIa9WN-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="145" y="720" as="sourcePoint" />
+            <mxPoint x="144.5" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-17" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="140" y="200" width="10" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-19" value="发起文件转换请求" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="HQB3WoJ26yC-VBeIa9WN-18" parent="1" source="HQB3WoJ26yC-VBeIa9WN-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="205" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-22" value="将文件上传到服务端" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="HQB3WoJ26yC-VBeIa9WN-21" parent="1" source="HQB3WoJ26yC-VBeIa9WN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-23" value="返回文件唯一标识" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="HQB3WoJ26yC-VBeIa9WN-21" parent="1" target="HQB3WoJ26yC-VBeIa9WN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-25" value="调用服务端转换方法" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="HQB3WoJ26yC-VBeIa9WN-24" parent="1" source="HQB3WoJ26yC-VBeIa9WN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-26" value="转换结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="HQB3WoJ26yC-VBeIa9WN-24" parent="1" target="HQB3WoJ26yC-VBeIa9WN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-37" value="根据文件唯一标识下载转换后文件" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="HQB3WoJ26yC-VBeIa9WN-36" parent="1" source="HQB3WoJ26yC-VBeIa9WN-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="495" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-38" value="返回转换后文件流" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="HQB3WoJ26yC-VBeIa9WN-36" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HQB3WoJ26yC-VBeIa9WN-41" value="转换成功" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" edge="1" parent="1" target="HQB3WoJ26yC-VBeIa9WN-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="630" as="sourcePoint" />
+            <mxPoint x="320" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
